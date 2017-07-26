@@ -29,7 +29,7 @@ let douAnswer = douNumber1 + douNumber2
 print("คำตอบของ \(douNumber1) + \(douNumber2)  มีค่าเท่ากับ \(douAnswer)")
 
 
-
+//ทดสอบการแก้ไข
 
 
 
