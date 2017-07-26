@@ -29,6 +29,31 @@ print("strName1 ==> \(strName1)")
 strName1.append("Dodo")
 print("New strName ==> \(strName1)")
 
+//การลบสมาชิก ของ Array
+print("intNumber1 ==> \(intArrayNumber1)")
+intArrayNumber1.remove(at: 2)
+print("intNumber1 ==> \(intArrayNumber1)")
+
+
+//การเรียงสมาชิกใน Array
+intArrayNumber1.append(10)
+intArrayNumber1.append(21)
+intArrayNumber1.append(56)
+print("intArrayNumber ==> \(intArrayNumber1)")
+intArrayNumber1.sort()
+print("intArrayNumber ==> \(intArrayNumber1)")
+
+//การนับจำนวนสมาชิก
+let intCount = intArrayNumber1.count
+
+
+
+
+
+
+
+
+
 
 
 
