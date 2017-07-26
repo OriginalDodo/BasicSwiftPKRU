@@ -1,0 +1,27 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+//Imlicit
+let intNumber = [11, 22, 33, 44, 55, 66, 77]
+var intStart = 0
+let intEnd = intNumber.count
+
+for intArray in intNumber {
+
+    print("intMumber[\(intStart)] ==> \(intNumber[intStart])")
+    intStart += 1
+    
+    
+}   // for
+
+//Imlic for String
+let strName = ["Doremon", "Nobita", "Sunako"]
+var intIndex = 0
+
+for strShowName in strName {
+
+    print("strShowName ครั้งที่ \(intIndex) มีค่าเท่ากับ \(strName[intIndex])")
+    intIndex += 1
+
+}
